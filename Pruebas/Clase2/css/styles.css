@@ -1,0 +1,57 @@
+body{
+    background-image:url(../images/fondo2.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+
+.footer{
+    padding-top: 0px;
+    border-top: 1px solid #e7e7e7;
+    margin-bottom: 0px;
+
+}
+
+.footer__ul{
+    text-decoration: none;
+}
+
+.galeria {
+
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    margin: 32px 0;
+
+}
+
+
+.galeria__item{
+    margin: 0 10px;
+    flex-basis: calc(50% - 20px);
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    
+
+}
+
+.galeria__imagen{
+    display: block;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    justify-content: center;
+}
+
+.galeria__texto{
+    display: block;
+    
+    
+}
