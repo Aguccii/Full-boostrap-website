@@ -1,21 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Varela+Round&display=swap');
+
+
+
+
+
+
 body{
     background-image:url(../images/fondo2.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
+    font-family: 'Architects Daughter', cursive !important; 
+
+    
 }
 
 
-.footer{
-    padding-top: 0px;
+
+
+.footer {
+
     border-top: 1px solid #e7e7e7;
-    margin-bottom: 0px;
 
 }
 
 .footer__ul{
     text-decoration: none;
+    
 }
 
 .galeria {
@@ -55,3 +67,29 @@ body{
     
     
 }
+
+.form-control{
+    width: 110% !important;
+}
+
+.text-center{
+    margin-top: 220px;
+}
+
+.animacion{
+    padding: 50px;
+    transition: transform .3s; 
+    margin: 0 auto;
+}
+
+.animacion:hover {
+    transform: scale(1.2);
+  }
+
+
+
+
+
+
+
+
